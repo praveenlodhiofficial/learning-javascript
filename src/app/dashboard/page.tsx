@@ -4,7 +4,7 @@ import { requireUser } from '@/lib/hooks';
 
 
 const DashboardPage = async() => {
-    const session = await requireUser();
+    // const session = await requireUser();
     return ( 
         <>
             <div className='m-60 text-3xl font-semibold text-center'>Welcome to Dashboard Page</div>
