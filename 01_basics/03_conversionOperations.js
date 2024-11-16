@@ -41,5 +41,12 @@
     console.log(`Line 39 --- sum: ` + sum);
 }
 
+// INCREMENTER & DECREMENTER
+
+{
+    let gameCounter = 100
+    ++gameCounter;
+    console.log(`Line 49 --- incremented to ` + gameCounter + ` from 100`);
+}
 
 
